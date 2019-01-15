@@ -5,7 +5,7 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommandArguments>c:\N-5CG8031PV3-Data\dpeng\Music\whys.flac</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>c:\N-5CG8031PV3-Data\dpeng\Music\whys.flac c:\N-5CG8031PV3-Data\dpeng\Music\fq.mp3</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
