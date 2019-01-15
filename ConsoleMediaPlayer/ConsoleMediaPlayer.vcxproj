@@ -174,11 +174,18 @@
     <ClInclude Include="..\ffplay\cmdutils.h" />
     <ClInclude Include="..\ffplay\config.h" />
     <ClInclude Include="..\ffplay\ffplay.h" />
+    <ClInclude Include="..\progressbar\progressbar.h" />
+    <ClInclude Include="..\progressbar\statusbar.h" />
+    <ClInclude Include="..\progressbar\termcap.h" />
+    <ClInclude Include="ConsoleMediaPlayer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ffplay\cmdutils.c" />
     <ClCompile Include="..\ffplay\dce_defs.c" />
     <ClCompile Include="..\ffplay\ffplay.c" />
+    <ClCompile Include="..\progressbar\progressbar.c" />
+    <ClCompile Include="..\progressbar\statusbar.c" />
+    <ClCompile Include="..\progressbar\termcap.c" />
     <ClCompile Include="ConsoleMediaPlayer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

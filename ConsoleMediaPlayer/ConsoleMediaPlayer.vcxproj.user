@@ -4,4 +4,8 @@
     <LocalDebuggerCommandArguments>c:\Users\dpeng\code\github\ConsoleMediaPlayer\Debug\tim.mp3</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>c:\N-5CG8031PV3-Data\dpeng\Music\whys.flac</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
 </Project>

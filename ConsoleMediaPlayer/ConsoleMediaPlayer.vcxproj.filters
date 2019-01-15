@@ -16,6 +16,9 @@
     <Filter Include="Source Files\ffplay">
       <UniqueIdentifier>{5ceaec42-b029-491d-88b7-822b025b133d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\progressbar">
+      <UniqueIdentifier>{02af5d35-ada3-43db-8301-106069cf2efc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ffplay\cmdutils.h">
@@ -26,6 +29,18 @@
     </ClInclude>
     <ClInclude Include="..\ffplay\ffplay.h">
       <Filter>Source Files\ffplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\progressbar\progressbar.h">
+      <Filter>Source Files\progressbar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\progressbar\statusbar.h">
+      <Filter>Source Files\progressbar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\progressbar\termcap.h">
+      <Filter>Source Files\progressbar</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleMediaPlayer.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -40,6 +55,15 @@
     </ClCompile>
     <ClCompile Include="..\ffplay\ffplay.c">
       <Filter>Source Files\ffplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\progressbar\progressbar.c">
+      <Filter>Source Files\progressbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\progressbar\statusbar.c">
+      <Filter>Source Files\progressbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\progressbar\termcap.c">
+      <Filter>Source Files\progressbar</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
