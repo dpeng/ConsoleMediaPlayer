@@ -12,10 +12,8 @@ extern "C"
 #include <progressbar/progressbar.h>
 }
 
-#define MAX_SONGLENGTH			260
-#define MAX_MULTISONGLENGTH		1600
 progressbar *m_pProgressBar = NULL;
-vector<char*> filenameVector;
+vector<char*> filenamevector;
 int curPlayingIndex;
 SDL_TimerID progressBarTimerID = 0;
 HANDLE consoleInputHandler;
