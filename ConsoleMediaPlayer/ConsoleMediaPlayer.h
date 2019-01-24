@@ -27,3 +27,5 @@ BOOL bIsPlaying;
 
 int CMP_Play(void);
 int CMP_Stop(void);
+int CMP_Next(void);
+int CMP_Previoius(void);
