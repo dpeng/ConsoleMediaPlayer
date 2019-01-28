@@ -22,6 +22,7 @@ HANDLE playProcessHandler;
 HANDLE consoleProcessHandler;
 int consoleWidth = 0;
 BOOL bIsPlaying;
+BOOL bExit;
 
 int CMP_OpenFile(void);
 int CMP_Play(void);

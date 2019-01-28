@@ -178,6 +178,7 @@
     <ClInclude Include="..\progressbar\statusbar.h" />
     <ClInclude Include="..\progressbar\termcap.h" />
     <ClInclude Include="ConsoleMediaPlayer.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ffplay\cmdutils.c" />
@@ -187,6 +188,12 @@
     <ClCompile Include="..\progressbar\statusbar.c" />
     <ClCompile Include="..\progressbar\termcap.c" />
     <ClCompile Include="ConsoleMediaPlayer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ConsoleMediaPlayer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ConsoleMediaPlayer.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
